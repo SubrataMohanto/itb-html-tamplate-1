@@ -1,0 +1,208 @@
+*{margin: 0; padding: 0;}
+
+body{
+	background-color: #EEE8AE;
+}
+
+#wrapper{
+	width: 960px;	
+}
+
+#header{
+	padding: 15px;
+	background-color: #FAB72A;
+	border-bottom: 5px solid #6B710E;
+}
+
+#header h2{
+	color: #fff;
+}
+
+#header p{
+	color: #788420;
+}
+
+#menu{
+	background-color: #fff;
+	height: 38px;
+	font-family: Arial;
+	border-bottom: 5px solid #6B710E;
+	
+}
+#menu ul{
+	background-color: #fff;
+	list-style-type: none;
+	z-index: 10;
+}
+#menu ul li{
+	float: left;
+	border-right: 1px solid #6B710E;
+}
+
+#menu ul li:last-child{
+	border-right: none;
+}
+
+#menu ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #6B710E;
+	display: block;
+}
+#menu ul li a:hover{
+	color: #917159;
+}
+
+#menu ul li{
+	position: relative;
+}
+
+#menu ul li ul{
+	position: absolute;
+	left: -99999px;
+	float: none;
+}
+
+#menu ul li ul li:first-child{
+	border-top: 2px solid #6B710E;
+}
+
+#menu ul li:hover ul{
+	left: 0;
+}
+
+#menu ul li ul li{
+	border-right: none;
+	border-bottom: 1px solid #6B710E;
+	width: 200px;
+	position: relative;
+}
+
+#menu ul li ul li ul{
+	position: absolute;
+	top: -99999px;
+}
+
+#menu ul li ul li:hover ul{
+	top: 0;
+	left: 200px;
+}
+
+#menu ul li ul li ul li:first-child{
+	border-top: none;
+}
+
+#menu ul li ul li ul li:last-child{
+	border-bottom: none;
+}
+
+#slider_wrapper {
+
+}
+
+#content_wrapper{
+	background-color: #fff;
+	/*border-top: 5px solid #6B710E;*/
+	padding: 10px;
+	overflow: hidden;
+}
+
+#content{
+	float: left;
+	width: 600px;
+	margin-right: 40px;
+	text-align: justify;
+}
+
+#content h2{
+	color: #6B710E;
+	font-family: Arial;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 25px;
+}
+
+#content h3{
+	color: #6B710E;
+	font-family: Arial;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+#content p{
+	margin: 25px 0;
+	font-size: 15px;
+}
+
+blockquote{
+	background-color: #ddd;
+	margin-left: 50px;
+	padding: 10px;
+	padding-left: 30px;
+	border-left: 3px solid orange;
+}
+
+#content img{
+	width: 450px;
+	
+}
+
+#content figure{
+	width: 450px;
+	background-color: #ddd;
+	padding: 10px;
+	margin: 0 auto;
+	display: block;
+}
+
+#content figcaption{
+	color: blue;
+	text-align: center;
+	font-family: Arial;
+	font-style: italic;
+}
+
+#sideber{
+	float: left;
+	width: 300px;
+}
+
+#sideber h2{
+	color: #6B710E;
+	font-family: Arial;
+	margin-top: 10px;
+}
+
+#sideber ul{
+	list-style-type: circle;
+}
+
+#sideber ul li a{
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+}
+
+#sideber ul li a:hover{
+	color: #917159;
+}
+
+#footer{
+	background-color: #635548;
+	padding: 10px;
+	text-align: center;
+}
+
+#footer p{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
